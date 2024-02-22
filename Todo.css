@@ -1,0 +1,109 @@
+body{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+    color: white;
+}
+h1{
+   background:linear-gradient(blue 60%,rgb(255, 59, 92) 80%   );
+   -webkit-background-clip: text;
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+   font-size: 50px;
+   /* margin-left:140px; */
+   padding-top: 30px;
+   text-align: center;
+  
+   
+   
+}
+.div1{
+    max-width: 500px;
+    width: 500px;
+    height: auto;
+    background-color: rgb(175, 134, 134);
+border: 1px black solid;
+        display: block;
+  
+}
+::placeholder{
+    content: "";
+  color: red;
+}
+input{
+    padding: 12px;
+    border: 1.2px red dotted;
+    border-radius: 5px;
+}
+.add{
+    background-color:rgb(194, 135, 144);
+    border-radius: 10px;
+    padding: 7px;
+    margin-left: 10px;
+   
+    box-shadow: 2px -2px 2px purple;
+   animation: add 3s ease-in-out infinite;
+}
+@keyframes add {
+    from{
+        color: rgb(190, 44, 159);
+        filter:hue-rotate(0deg);
+    }
+    to{
+        color: red;
+        filter:hue-rotate(2000deg);
+    }
+}
+.form{
+    text-align: center;
+}
+
+span{
+    color: aqua;
+    font-size: 20px;
+}
+.values{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 80%;
+    color: black;
+    height: auto;
+    background-color: blueviolet;
+    margin-top: 10px;
+    text-align:center;
+    position: relative;
+    left:60px;
+    border-radius: 3px;
+}
+.edit,.delete{
+   padding: 10px 20px;
+   background-color: transparent;
+   
+    background-color: rgb(241, 239, 239);
+   
+  display: inline-flex;
+  align-content: end;
+  justify-content: space-between;
+  text-align: center;
+  margin-left: 0px;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+left:70px;
+  
+}
+.clear{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blueviolet;
+    margin-left: 190px;
+ font-size: 17px;
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    border:1px rgb(38, 0, 255) solid
+}
+

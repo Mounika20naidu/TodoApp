@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "mounika",
+      "email": "mandla1120@gmail.com",
+      "place": "srirangapur",
+      "mobile": 8978180962
+    },
+    {
+      "id": "2",
+      "name": "thiru",
+      "email": "mandla1120@gmail.com",
+      "place": "srirangapur",
+      "mobile": 8993843912
+    },
+    {
+      "id": "3",
+      "name": "sushu",
+      "email": "sushu20@gmail.com",
+      "place": "wanaparthy",
+      "mobile": "90893148348"
+    },
+    {
+      "id": "",
+      "name": "",
+      "email": "",
+      "place": "",
+      "mobile": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "email": "",
+      "place": "",
+      "mobile": ""
+    }
+  ]
+}
